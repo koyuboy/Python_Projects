@@ -282,7 +282,7 @@ if __name__ == "__main__":
     # To test part 2, comment out the pass line above and
     # uncomment the following two lines.
     
-    #secret_word = choose_word(wordlist)
+    secret_word = choose_word(wordlist)
     #hangman(secret_word)
     
 
@@ -293,4 +293,40 @@ if __name__ == "__main__":
     
     secret_word = choose_word(wordlist)
     hangman_with_hints(secret_word)
+
+
+# In[105]:
+
+
+#hangman("else")
+
+
+# In[117]:
+
+
+match_with_gaps("a_ ple", "apple") # hocada false dönmüş
+
+
+# In[118]:
+
+
+#13.sayfada kaldım bu üstte yazdığım hariç çalışıyo fonksyon
+
+
+# In[16]:
+
+
+show_possible_matches("a_ g")
+
+
+# In[27]:
+
+
+hangman_with_hints("apple")
+
+
+# In[ ]:
+
+
+
 
