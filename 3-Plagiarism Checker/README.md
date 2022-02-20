@@ -76,4 +76,4 @@ based algorithm.
 
 
 
-***Open report.pdf to see examples***
+*** Please open report.pdf to see examples***
